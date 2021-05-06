@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- saved from url=(0021)http://hodlercoin.me/ -->
-<html style="--delay1:2s; --delay2:1s; --delay3:0s; --delay4:1s;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html style="--delay1:1s; --delay2:2s; --delay3:0s; --delay4:2s;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	
 	
 	<title>SteelMoon</title>
@@ -14,10 +14,10 @@
 <img src="./SteelMoon_files/logo.svg"><br>
 <h1>SteelMoon</h1>
 <h3>Early buyer protection:</h3>
-<h2><p id="cdown">2d 8h 30m 4s </p></h2>
+<h2><p id="cdown">2d 8h 5m 39s </p></h2>
 
 <div id="cbar">
-<div id="pbar" style="width: 21.526%;">
+<div id="pbar" style="width: 22.0914%;">
 </div>
 </div>
 
@@ -80,7 +80,7 @@ setInterval(function(){
 
 
 <div class="lines">
-  <div class="line" id="l1" style="display: block;"></div>
+  <div class="line" id="l1"></div>
   <div class="line" id="l2" style="display: block;"></div>
   <div class="line" id="l3" style="display: block;"></div>
   <div class="line" id="l4" style="display: block;"></div>
@@ -101,10 +101,7 @@ var l4=document.querySelector('#l4');
 function setd1(){
 dvar1=Math.floor(Math.random() * 3);
 dc1++;
-l1.style.display='none';
 d1.style.setProperty('--delay1', dvar1+'s');
-l1.style.display='block';
-l1.offsetWidth;
 if (dc1<10000){
 setTimeout(setd1, dvar1*1000+13000);
 }}
