@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<!-- saved from url=(0021)http://hodlercoin.me/ -->
+<html style="--delay1:3s; --delay2:0s; --delay3:0s; --delay4:4s;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	
+	<title>SteelMoon</title>
+	<link rel="stylesheet" media="screen" href="./SteelMoon_files/standard.css">
+	<link rel="icon" href="http://hodlercoin.me/icon.png">
+</head>
+
+<body>
+
+<div class="cbox">
+<img src="./SteelMoon_files/logo.svg"><br>
+<h1>SteelMoon</h1>
+<h3>Early buyer protection:</h3>
+<h2><p id="cdown">2d 9h 5m 4s </p></h2>
+
+<div id="cbar">
+<div id="pbar" style="width: 20.7158%;">
+</div>
+</div>
+
+<script>
+var countDownDate = new Date("May 8, 2021 17:45:41").getTime();
+var width=1;
+
+var dvar=0;
+var d1 = document.querySelector(':root');
+        d1.style.setProperty('--delay1', '5s');
+
+var x = setInterval(function() {
+
+  var now = new Date().getTime();
+  var distance = countDownDate - now;
+
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  document.getElementById("cdown").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+  document.getElementById("pbar");
+  width=distance/1000;
+  width=distance/2592000;
+  width=100-width;
+  pbar.style.width= width+'%';
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("cdown").innerHTML = "EXPIRED";
+  }
+}, 1000);
+setInterval(function(){
+
+
+
+}, 1000);
+</script>
+<div class="lbox">
+<a href="http://hodlercoin.me/google.com" style="white-space: nowrap"><div class="lbut">Token Contract</div></a>
+<a href="http://hodlercoin.me/bing.com" style="white-space: nowrap"><div class="lbut">Telegram Group</div></a>
+</div> 
+
+
+</div>
+<div class="heightner"></div>
+<div class="pbox">
+        <div class="pwin">
+        <div class="ptop" id="topper">
+        <h3>Innovative investment protection.</h3>
+        </div>
+	<span>
+	<img src="./SteelMoon_files/burn.svg">Lorem ipsum.
+	</span>
+        </div>
+</div>
+
+
+
+
+<div class="lines">
+  <div class="line" id="l1" style="display: block;"></div>
+  <div class="line" id="l2" style="display: block;"></div>
+  <div class="line" id="l3" style="display: block;"></div>
+  <div class="line" id="l4" style="display: block;"></div>
+<script>
+var dc1=0;
+var dc2=0;
+var dc3=0;
+var dc4=0;
+var dvar1=0;
+var dvar2=0;
+var dvar3=0;
+var dvar4=0;
+
+function setd1(){
+dvar1=Math.floor(Math.random() * 5);
+dc1++;
+d1.style.setProperty('--delay1', dvar1+'s');
+document.querySelector('#l1').style.display='none';
+document.querySelector('#l1').style.display='block';
+if (dc1<10000){
+setTimeout(setd1, dvar1*1000+7000);
+}}
+
+function setd2(){
+dvar2=Math.floor(Math.random() * 5);
+d1.style.setProperty('--delay2', dvar2+'s');
+document.querySelector('#l2').style.display='none';
+document.querySelector('#l2').style.display='block';
+dc2++;
+if (dc2<10000){
+setTimeout(setd2, dvar2*1000+7000);
+}}
+
+function setd3(){
+dva3=Math.floor(Math.random() * 5);
+d1.style.setProperty('--delay3', dvar3+'s');
+document.querySelector('#l3').style.display='none';
+document.querySelector('#l3').style.display='block';
+dc3++;
+if (dc3<10000){
+setTimeout(setd3, dvar3*1000+7000);
+}}
+
+function setd4(){
+dvar4=Math.floor(Math.random() * 5);
+d1.style.setProperty('--delay4', dvar4+'s');
+document.querySelector('#l4').style.display='none';
+document.querySelector('#l4').style.display='block';
+dc4++;
+if (dc4<10000){
+setTimeout(setd4, dvar4*7000);
+}}
+
+
+var d1 = document.querySelector(':root');
+
+setd1();
+setd2();
+setd3();
+setd4();
+setInterval(function(){
+
+
+
+}, 1000);
+
+</script>
+</div>
+
+
+
+</body></html>
